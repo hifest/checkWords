@@ -39,6 +39,7 @@ function checkTranslation(){
         if(mean.trim() == words[array_of_mean[itr]]){
             result.innerHTML = `Ви ответили правильно: ${itr + 1} раз`
             document.querySelector('.translate').value = ''
+            rightInner.innerHTML = ''
             if(words[array_of_mean[itr + 1]]){
 
             }else{
